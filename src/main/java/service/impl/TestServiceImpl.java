@@ -16,4 +16,9 @@ public class TestServiceImpl implements TestService {
     public void test() {
         System.out.println("master修改了");
     }
+
+    @Override
+    public void main() {
+        System.out.println("这是master的第二个方法");
+    }
 }
