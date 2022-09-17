@@ -7,5 +7,6 @@ package service;
  * @Date: 2022/09/17/17:37
  * @Description:
  */
-public class TestService {
+public interface TestService {
+    public void test();
 }
